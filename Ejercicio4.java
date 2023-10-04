@@ -8,7 +8,6 @@ public class Ejercicio4 {
         int c = entrada.nextInt();
         int minimo, maximo, medio, x;
 
-        System.out.println(a > b && a > c ? maximo = a : b < c && b < a ? minimo = b : medio);
-
+        System.out.println(a > b && a > c ? maximo = a : b < c && b < a ? minimo = b : medio)
     }
 }

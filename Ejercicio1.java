@@ -11,7 +11,7 @@ public class Ejercicio1 {
         float c = entrada.nextFloat();
 
         System.out.println("Operación 1: " + (a * b + c * ((3 - a) / (2 * b))));
-        System.out.println("Operación 2: " + ((2 + a * b) / 4) * Math.pow(c + 2));
-        System.out.println("Operación 3: " + (-b + (((b * 2) - 4 * a * c));
+        System.out.println("Operación 2: " + ((2 + a * b) / 4) * Math.pow(c, 2));
+        System.out.println("Operación 3: " + (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c));
     }
 }
